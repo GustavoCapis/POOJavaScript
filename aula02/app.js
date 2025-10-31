@@ -1,10 +1,13 @@
 import funcoes from "./funcoes.js";
 import ingredientes from "./ingredientes.js";
-//TODO: import saladas from "./saladas.js"
+// import saladas from "./saladas.js"
 
-console.log(ingredientes);
-console.log(typeof ingredientes); //typeof verifica o tipo de dado
-console.log(Array.isArray(ingredientes));//Verifica se um dado é um vetor(array) retornando true ou false
+
+funcoes.capitalizarObjeto(ingredientes, 'nome')
+// console.log(ingredientes);
+// console.log(funcoes.capitalizarObjeto(ingredientes));
+// console.log(typeof ingredientes); //typeof verifica o tipo de dado
+// console.log(Array.isArray(ingredientes));//Verifica se um dado é um vetor(array) retornando true ou false
 
 
 
